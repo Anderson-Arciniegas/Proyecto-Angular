@@ -1,0 +1,108 @@
+$space: #3d5a6cff;
+$light-green: #8de969ff;
+$dark-liver: #55505cff;
+$lemon-yellow: #faf33eff;
+$spanish-carmine: #d11149ff;
+$electric-indigo: #6610f2ff;
+$tufts-blue: #1a8fe3ff;
+$dark: #1e272e;
+$light: #f1f2f6;
+
+@font-face{
+
+    font-family: "CenturyGothic";
+    src: url("../assets/fuentes/CenturyGothic.ttf");
+}
+
+
+.body_global{
+    margin: 0;
+    padding: 0;
+    font-family:  "CenturyGothic";
+}
+
+.header{
+    
+  
+    color: white;
+    background: $spanish-carmine;
+    padding-top: 5px;
+    
+    .titulo{
+        padding: 5px;
+        padding-left: 30px;
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .header_top{
+        width: 100%;
+        height: 10px;
+    }
+
+    .header_bot{
+        
+        margin-left: 45%;
+        width: 50%;
+        height: 50px;
+        background: $dark-liver;
+        transform: skew(-40deg);
+        
+        ul{
+            padding: 0;
+            width: 100%;
+            list-style: none;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            li{
+                height: 50px;
+                width: 25%;
+                transform: none;
+
+                .actived{
+                    background: $light;
+                    color: $dark;
+                }
+                a{  
+                    text-decoration: none;
+                    display: block;
+                    height: 50px;
+                    width: 100%;
+                    background: $dark-liver;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                   
+                    color: white;
+                    transition: 500ms;
+                    
+                   
+                                        
+
+                    span{
+                        transform: skew(40deg);
+                        font-size: 18px;
+                        font-weight: bold;
+                       
+                    }
+
+
+                    &:hover{
+                   
+                        background: $light;
+                        color: $dark;
+                        
+                    }
+                }
+            }
+            
+        }
+        
+    }
+
+   
+}
