@@ -1,1 +1,18 @@
-<p>peliculas works!</p>
+<div class="body_movies">
+    <h2 class="tittle_movies">Favorite Movies</h2>
+  
+  
+    <div *ngFor="let movie of movies">
+      <button class="accordion" id ="boton{{movie.id}}" (click)="expandir(movie.id)"><h4>{{movie.name}}</h4></button>
+      <div class="panel" id="item{{movie.id}}">
+          <div class="conten1">
+            <img width="200" src="{{movie.img}}" alt="">
+                <div class="conten2">
+              <h3>Género: {{movie.genero}}</h3>
+              <h3>Año: {{movie.ano}}</h3>
+              <p>{{movie.descripcion}}</p>
+                </div>
+            </div>    
+      </div>
+    </div>
+</div>

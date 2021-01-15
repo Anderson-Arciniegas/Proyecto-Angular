@@ -3,7 +3,7 @@ Interprete: The shins
 Link:<iframe width="560" height="315" src="https://www.youtube.com/embed/GyAJ4V06izg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - November Rain
-Interprete: Guns N' Roses 
+Interprete: November Rain 
 Link: <iframe width="560" height="315" src="https://www.youtube.com/embed/8SbUC-UaAxE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Paradise City
@@ -31,15 +31,15 @@ Interprete: John Lennon
 Link:<iframe width="560" height="315" src="https://www.youtube.com/embed/YkgkThdzX-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Demons
-Interprete: Imegine Dragons
+Interprete: Imagine Dragons
 Link:<iframe width="560" height="315" src="https://www.youtube.com/embed/mWRsgZuwf_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Believer
-Interprete: Imegine Dragons
+Interprete: Imagine Dragons
 Link:<iframe width="560" height="315" src="https://www.youtube.com/embed/7wtfhZwyrcc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
 - Radioactive
-Interprete: Imegine Dragons
+Interprete: Imagine Dragons
 Link: <iframe width="560" height="315" src="https://www.youtube.com/embed/ktvTqknDobU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - Warriors

@@ -16,7 +16,7 @@ Plataforma: PlayStation, Xbox, Switch
 
 - Mortal kombat
 Genero: Lucha
-Descripción: ortal Kombat es una franquicia de videojuegos de peleas creada por Ed Boon y John Tobias en 1992. Las cuatro primeras entregas fueron distribuidas por Midway Games y lanzadas principalmente en máquinas arcade; posteriormente estuvieron disponibles en consolas domésticas
+Descripción: Mortal Kombat es una franquicia de videojuegos de peleas creada por Ed Boon y John Tobias en 1992. Las cuatro primeras entregas fueron distribuidas por Midway Games y lanzadas principalmente en máquinas arcade; posteriormente estuvieron disponibles en consolas domésticas
 Plataforma: Todas
 
  - GTA
@@ -31,7 +31,7 @@ Plataforma:  PC
 
 - PES 
 Genero: Deportes
-Descripción: Pro Evolution Soccer es una serie de videojuegos de fútbol desarrollado y distribuido por la empresa Konam
+Descripción: Pro Evolution Soccer es Starsuna serie de videojuegos de fútbol desarrollado y distribuido por la empresa Konam
 Plataforma: PC, PlayStation, Xbox
 
 - SW battlefrom

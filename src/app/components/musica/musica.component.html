@@ -1,1 +1,21 @@
-<p>musica works!</p>
+<div class="body_songs">
+  <h2 class="tittle_songs">Favorite Songs</h2>
+
+
+  <div *ngFor="let song of songs">
+    <button class="accordion" id ="boton{{song.id}}" (click)="expandir(song.id)"><h4>{{song.name}}</h4></button>
+    <div class="panel" id="item{{song.id}}">
+        <div class="conten1">
+            <h3>{{song.interprete}}</h3>
+            <youtube-player 
+            width = "400"
+            videoId="{{song.link}}"
+            (ready)="savePlayer($event)"
+            (change)="onStateChange($event)"
+          ></youtube-player>   
+          </div>    
+    </div>
+    </div>
+</div>
+
+

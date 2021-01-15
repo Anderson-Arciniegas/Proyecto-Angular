@@ -1,0 +1,69 @@
+$dark: #1e272e;
+$spanish-carmine: #d11149ff;
+$dark-liver: #55505cff;
+
+*{
+    transition: 400ms;
+}
+.body_songs{
+    background: $dark;
+    
+}
+
+.tittle_songs{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.accordion {
+    background-color: $dark-liver;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+
+    h4{
+        margin-left: 30px;
+    }
+
+  }
+  
+.active, .accordion:hover {
+    background-color: rgba(209, 17, 73, 0.8);
+}
+
+.panel {
+    padding: 0;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+.conten1{
+    margin: 0;
+    color: white;
+    
+    padding: 25px;
+    width: 100%;
+    background: $dark;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    h3{
+        margin-bottom: 20px;
+    }
+      
+}

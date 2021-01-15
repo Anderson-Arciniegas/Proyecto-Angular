@@ -1,0 +1,41 @@
+$dark: #1e272e;
+$spanish-carmine: rgb(209, 17, 73);
+$dark-liver: #55505cff;
+$space: #3d5a6cff;
+
+.body_footer{
+    color: white;
+    background: #2f3542;
+    height: 250px;
+   
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+    div{
+       
+        height: 120px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 33.3333%;
+    }
+
+    img{
+        transition: 400ms;
+        &:hover{
+            width: 80px;
+        }
+    }
+}
+
+span{
+    margin: 20px;
+    padding: 20px;
+}

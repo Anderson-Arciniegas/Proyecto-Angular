@@ -1,5 +1,17 @@
 .carrusel{
   
    width: 100%;
-    
+   border: 0;
+
+   &:focus{
+      border: 0;
+   }
+
+   &:active{
+      border: 0;
+   }
+}
+
+img{
+   margin-left: 30%;
 }

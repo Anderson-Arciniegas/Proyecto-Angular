@@ -7,14 +7,18 @@ import { MusicaComponent } from './components/musica/musica.component';
 import { SeriesComponent } from './components/series/series.component';
 import { CreateComponent } from './components/create/create.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
+import { JuegosComponent } from './components/juegos/juegos.component';
+import {HashLocationStrategy, Location, LocationStrategy} from '@angular/common';
+
 
 const routes: Routes = [
-
+  
   {path: '', component: CarruselComponent},
   {path: 'books', component: LibrosComponent},
   {path: 'movies', component: PeliculasComponent},
   {path: 'songs', component: MusicaComponent},
   {path: 'series', component: SeriesComponent},
+  {path: 'games', component: JuegosComponent},
   {path: 'create', component: CreateComponent},
   
 ];

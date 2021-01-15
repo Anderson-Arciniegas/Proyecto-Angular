@@ -1,1 +1,18 @@
-<p>series works!</p>
+<div class="body_series">
+    <h2 class="tittle_series">Favorite Series</h2>
+  
+  
+    <div *ngFor="let serie of series">
+      <button class="accordion" id ="boton{{serie.id}}" (click)="expandir(serie.id)"><h4>{{serie.name}}</h4></button>
+      <div class="panel" id="item{{serie.id}}">
+          <div class="conten1">
+            <img width="200" src="{{serie.img}}" alt="">
+                <div class="conten2">
+              <h3>Género:{{serie.genero}}</h3>
+              <h3>Temporadas: {{serie.temporadas}}</h3>
+              <p>{{serie.descripcion}}</p>
+                </div>
+            </div>    
+      </div>
+    </div>
+</div>

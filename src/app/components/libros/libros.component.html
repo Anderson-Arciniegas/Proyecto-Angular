@@ -1,1 +1,21 @@
-<p>libros works!</p>
+<div class="body_books">
+
+<h2 class="tittle_books">Favorite Books</h2>
+
+  <div *ngFor="let book of books">
+  <button class="accordion" id ="boton{{book.id}}" (click)="expandir(book.id)"><h4>{{book.name}}</h4></button>
+  <div class="panel" id="book{{book.id}}">
+      <div class="conten1">
+        <img width="200" src="{{book.img}}" alt="">
+            <div class="conten2">
+          <h3>Autor: {{book.autor}}</h3>
+          <h3>Género: {{book.genero}}</h3>
+          <p>{{book.descripcion}}</p>
+            </div>
+        </div>    
+  </div>
+</div>
+
+</div>
+ 
+

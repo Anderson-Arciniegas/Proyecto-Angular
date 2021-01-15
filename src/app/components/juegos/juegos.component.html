@@ -1,0 +1,17 @@
+<div class="body_games">
+  <h2 class="tittle_games">Favorite Games</h2>
+
+
+  <div *ngFor="let game of games">
+    <button class="accordion" id ="boton{{game.id}}" (click)="expandir(game.id)"><h4>{{game.name}}</h4></button>
+    <div class="panel" id="item{{game.id}}">
+        <div class="conten1">
+          <img width="200" src="{{game.img}}" alt="">
+              <div class="conten2">
+            <h3>Género: {{game.genero}}</h3>
+            <h3>Plataforma: {{game.plataforma}}</h3>
+            <p>{{game.descripcion}}</p>
+              </div>
+          </div>    
+    </div>
+  </div>

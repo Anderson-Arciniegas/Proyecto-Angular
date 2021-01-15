@@ -12,6 +12,7 @@
             <ul>
               <li><a [routerLink]="['/books']" [routerLinkActive]="['actived']"><span>Books</span></a></li>
               <li><a [routerLink]="['/movies']" [routerLinkActive]="['actived']"><span>Movies</span></a></li>
+              <li><a [routerLink]="['/games']" [routerLinkActive]="['actived']"><span>Games</span></a></li>
               <li><a [routerLink]="['/series']" [routerLinkActive]="['actived']"><span>Series</span></a></li>
               <li><a [routerLink]="['/songs']" [routerLinkActive]="['actived']"><span>Songs</span></a></li>
             </ul>
@@ -22,10 +23,8 @@
     
   <div class="contenido-global">
     <router-outlet></router-outlet>
+    <app-footer></app-footer>
   </div>
 
-  <footer>
-
-  </footer>
 
 </div>
